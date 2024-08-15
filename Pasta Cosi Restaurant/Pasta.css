@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;  /* Ensure consistent box model */
+  }
+
+.c1{
+    
+  min-width: 97%;
+    
+    
+    height:730px;
+    background-image: url('Images/HEAD-IMG1.jpg');
+    background-size: cover;
+    position: relative; /* Needed for some pseudo-animation techniques */
+    animation: carousel-background 20s ease infinite; /* Adjust timing and animation name */
+    
+}
+
+  @keyframes carousel-background {
+    0% { background-image: url('Images/HEAD-IMG1.jpg');}
+    25% { background-image: url('Images/HEAD-IMG2.jpg'); }
+
+    100% { background-image: url('Images/HEAD-IMG3.jpg'); }
+  }
+
+
+
+
+
+
+.navi2{
+   
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:9;
+    
+}
+    
+
+.headstick{
+    
+      
+  background-color: rgba(0, 0, 0, 0.5);   
+  min-width:100%;
+  height:70px;
+
+    
+  
+   
+}
+
+   
+    
+   
+    
+
+
+.hhh{
+    float:right;
+   margin-right:100px;
+   font-size: 15px;
+}
+
+.hhh-a{
+   
+  text-decoration: none;
+  padding-left:30px;  color:#fff ;
+}
+.hhh-a:hover{
+    color:rgb(255, 176, 59);
+    text-decoration: none;   
+}
+.book-b{
+    color:#fff;
+    background-color: rgb(240, 186, 105);
+    border-radius: 50px;
+    margin : 0px 0px 0px 15px;
+    padding : 10px 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-color: rgb(240, 186, 105) ;
+    margin-top:20px;
+    
+
+}
+.book-b:hover{
+    background-color: rgb(255, 176, 59);
+}
+
+
+
+.c2{
+  
+  min-width: 97%;
+  
+}
+
+
+
+
+
+
+
+.pasta_v{
+  margin-top: 100px;
+  margin-left:165px;
+}
+.discovery
+{
+  margin-top: 130px;
+ margin-left: 50px;
+}
+
+
+/* mennnuuuuu */
+#menu{
+  margin-top:110px;
+}
+.menu_l{
+  
+ color: rgb(68, 68, 68);
+ text-decoration: none;
+ padding-left: 20px;
+
+}
+.menu_l:hover{
+  color:#fff;
+  background-color: rgb(255, 176, 59) ;
+  padding:10px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+.left-m{
+  width:98%;
+}
+
+.right-m{
+  width:98%;
+}
+.m-img{
+  width:60px;
+  height:60px;
+  border-radius: 50px;
+ 
+}
+.items{
+  margin-top: 100px;
+}
+.menu-item{
+  padding-bottom:40px;
+  
+}
+.menu-item a{
+  color:rgb(255, 155, 8);
+  padding-left:10px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.menu-item a:hover{
+  text-decoration: none;
+  color:rgb(255, 155, 8);
+
+}
+.menu-item span{
+  float: right;
+  font-weight: 700;
+ 
+}
+.menu-item p{
+  margin-left:73px;
+  margin-top: -20px;
+  color:rgb(148, 140, 129);
+  font-size: 14px;
+}
+
+
+
+
+/* boook tableee */
+#book{
+  margin-top:50px;
+}
+
+
+/* phoootozzzzzzzzzzzzzzzz */
+#photos{
+  margin-top:150px;
+}
+.pics{
+  width:300px;
+  height:200px;
+  border:groove 0.5em rgb(238, 177, 8);
+  
+  border-radius:80px;
+  overflow: hidden;
+  margin-top:20px;
+ 
+}
+.p-img{
+  max-width: 100%;
+  height:auto;
+  transition: all 0.3s ease 0s;
+  object-fit: cover;
+  z-index:1;
+}
+.p-img:hover{
+  transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* namesssssssssssssssssssssssssssss */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact us */
+#contact{
+  margin-top: 100px;
+}
+
+.info{
+  
+  margin-top: 50px;
+  width:100%;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.info h2{
+  color:rgb(67, 63, 57);
+  font-size: 18px;
+  font-weight: 600;
+}
+.info p{
+  color:rgb(122, 115, 104);
+  font-weight:400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.filling{
+  margin-top: 10px;
+  width:100%;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    
+}
+
+.namemail{
+  
+}
+.nam{
+  
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  margin-bottom:30px;
+  border: 1px solid #ced4da;
+}
+
+.nam:hover{
+  border-color: #86b7fe;
+}
+
+.sub_but{
+  color:#fff;
+  background-color:#ffb03b;
+  border-color:#ffb03b;
+  border-radius: 50px;
+  padding:10px 24px;
+}
+
+.sub_but:hover{
+  background-color: rgb(255, 176, 59);
+  border-color: rgb(255, 176, 59);
+}
+
+
+/* fooooooooooooooooooooooooooooter */
+
+.last{
+  text-align: center;
+  background-color: #35322d;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.last-pasta{
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  
+  margin-right:10px;
+  background-color: #4f4c48;
+  padding: 12px;
+}
+
+
+.last-pasta:hover{
+  background-color: rgb(255, 176, 59);
+  color: #fff;
+}
